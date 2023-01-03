@@ -17,7 +17,8 @@ Create .bat file `C:\Users\[your username]\AppData\Roaming\Microsoft\Windows\Sta
 
 ```
 @echo off
-python path-to-repo\MouseJiggler\main.py
+cd path-to-repo\MouseJiggler\
+python main.py
 ```
 
 Exit application from systray by right-click'ing bell icon and select `Quit`
